@@ -1,4 +1,4 @@
-function button1() {
+function button_iot() {
   document.getElementById('myImage').src = "assets/images/q.png";
 
   var text1 = document.getElementById("text1");
