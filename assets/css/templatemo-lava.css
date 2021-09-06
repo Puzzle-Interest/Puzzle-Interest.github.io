@@ -557,7 +557,7 @@ header
     float: none!important;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -845,6 +845,50 @@ promotion
   margin-top: 3px;
 }
 
+
+/*
+--------------------------------------------
+project_counter
+--------------------------------------------
+*/
+#project_count {
+  padding: 50px;
+  position: relative;
+  z-index: 9;
+}
+
+#project_count .column {
+  /* float: left; */
+  width: 24%;
+  padding: 10px;
+  height: 100px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 1199px) {
+  #project_count .column {
+    /* float: left; */
+    width: 40%;
+    padding: 10px;
+    height: 100px;
+    margin: 10px;
+  }
+}
+
+#stats {
+  background: linear-gradient(145deg, rgb(1, 1, 1) 0%, rgb(239, 50, 32) 100%);
+  width: 240px;
+  height: 100px;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#project_count .column p,
+h2 {
+  color: #FFF;
+}
 
 /*
 --------------------------------------------
