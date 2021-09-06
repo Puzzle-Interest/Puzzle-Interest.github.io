@@ -27,15 +27,70 @@ font & reset css
 ---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
 /*
 ---------------------------------------------
 reset
 ---------------------------------------------
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
-pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
-s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
-figure, header, nav, section, article, aside, footer, figcaption {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -63,13 +118,20 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-ul, li {
+ul,
+li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-header, nav, section, article, aside, footer, hgroup {
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
   display: block;
 }
 
@@ -77,7 +139,8 @@ header, nav, section, article, aside, footer, hgroup {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #fff;
@@ -91,7 +154,12 @@ a {
   text-decoration: none !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -128,16 +196,21 @@ body {
 }
 
 @media (max-width: 991px) {
-  html, body {
+
+  html,
+  body {
     overflow-x: hidden;
   }
+
   .mobile-top-fix {
     margin-top: 30px;
     margin-bottom: 0px;
   }
+
   .mobile-bottom-fix {
     margin-bottom: 30px;
   }
+
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
@@ -237,25 +310,25 @@ header
 
 .background-header {
   background-color: #fff;
-  height: 80px!important;
-  position: fixed!important;
+  height: 80px !important;
+  position: fixed !important;
   top: 0px;
   left: 0px;
   right: 0px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
 }
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #1e1e1e !important;
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #EF3220!important;
+  color: #EF3220 !important;
 }
 
 .background-header .nav li a.active {
-  color: #EF3220!important;
+  color: #EF3220 !important;
 }
 
 .header-area {
@@ -372,7 +445,7 @@ header
 .header-area .main-nav .nav li.submenu ul li a {
   display: block;
   background: #fff;
-  color: #7a7a7a!important;
+  color: #7a7a7a !important;
   padding-left: 20px;
   height: 40px;
   line-height: 40px;
@@ -402,7 +475,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #EF3220!important;
+  color: #EF3220 !important;
   padding-left: 25px;
 }
 
@@ -546,6 +619,7 @@ header
     padding-left: 12px;
     padding-right: 12px;
   }
+
   .header-area .main-nav:before {
     display: none;
   }
@@ -554,8 +628,9 @@ header
 @media (max-width: 991px) {
   .logo {
     text-align: center;
-    float: none!important;
+    float: none !important;
   }
+
   .header-area {
     background-color: #fff;
     padding: 0px 15px;
@@ -563,18 +638,23 @@ header
     box-shadow: none;
     text-align: center;
   }
+
   .header-area .container {
     padding: 0px;
   }
+
   .header-area .logo {
     margin-left: 30px;
   }
+
   .header-area .menu-trigger {
     display: block !important;
   }
+
   .header-area .main-nav {
     overflow: hidden;
   }
+
   .header-area .main-nav .nav {
     float: none;
     width: 100%;
@@ -586,9 +666,11 @@ header
     transition: all 0s ease 0s;
     margin-left: 0px;
   }
+
   .header-area .main-nav .nav li:first-child {
     border-top: 1px solid #eee;
   }
+
   .header-area .main-nav .nav li {
     width: 100%;
     background: #fff;
@@ -596,6 +678,7 @@ header
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+
   .header-area .main-nav .nav li a {
     height: 50px !important;
     line-height: 50px !important;
@@ -604,10 +687,12 @@ header
     background: #f7f7f7 !important;
     color: #191a20 !important;
   }
+
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #EF3220!important;
+    color: #EF3220 !important;
   }
+
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
     visibility: inherit;
@@ -620,23 +705,29 @@ header
     box-shadow: none;
     height: 0px;
   }
+
   .header-area .main-nav .nav li.submenu ul li a {
     font-size: 12px;
     font-weight: 400;
   }
+
   .header-area .main-nav .nav li.submenu ul li a:hover:before {
     width: 0px;
   }
+
   .header-area .main-nav .nav li.submenu ul.active {
     height: auto !important;
   }
+
   .header-area .main-nav .nav li.submenu:after {
     color: #3B566E;
     right: 25px;
     font-size: 14px;
     top: 15px;
   }
-  .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
+
+  .header-area .main-nav .nav li.submenu:hover ul,
+  .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
 }
@@ -654,10 +745,12 @@ welcome
 ---------------------------------------------
 */
 .welcome-area {
+  /* margin-top: 90px; */
   width: 100%;
   height: 100vh;
   min-height: 793px;
-  /*background-image: url(../images/banner-bg.png);*/
+  background-image: url(../images/banner-new.png);
+  /* background-image: url(../images/banner-bg.png); */
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -704,6 +797,7 @@ welcome
   .welcome-area .header-text .left-text {
     margin-top: 50%;
   }
+
   .welcome-area .header-text {
     width: 50%;
     margin-left: 5%;
@@ -714,15 +808,18 @@ welcome
   .welcome-area {
     height: auto;
   }
+
   .welcome-area .header-text {
     width: 92%;
     padding-top: 793px;
   }
+
   .welcome-area .header-text .left-text {
     margin-top: 5%;
     transform: none !important;
   }
 }
+
 @media (max-width: 810px) {
   .welcome-area {
     background-size: contain;
@@ -761,7 +858,7 @@ about
   border-radius: 5px;
   padding: 60px 30px;
   text-align: center;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .features-item h2 {
@@ -917,7 +1014,7 @@ testimonials
 }
 
 #testimonials .item .testimonial-content {
-  background: rgb(244,129,63);
+  background: rgb(244, 129, 63);
   background: linear-gradient(145deg, rgb(1, 1, 1) 0%, rgb(239, 50, 32) 100%);
   margin-left: 60px;
   padding: 40px 30px;
@@ -971,7 +1068,7 @@ testimonials
   line-height: 80px;
   text-align: center;
   display: inline-block;
-  background: rgb(244,129,63);
+  background: rgb(244, 129, 63);
   background: linear-gradient(145deg, rgb(1, 1, 1) 0%, rgb(239, 50, 32) 100%);
   position: absolute;
 }
@@ -988,14 +1085,14 @@ testimonials
   line-height: 80px;
   text-align: center;
   display: inline-block;
-  background: rgb(244,129,63);
+  background: rgb(244, 129, 63);
   background: linear-gradient(145deg, rgb(1, 1, 1) 0%, rgb(239, 50, 32) 100%);
   position: absolute;
 }
 
 @media screen and (max-width: 1060px) {
   .owl-carousel .owl-nav {
-    display: none!important;
+    display: none !important;
   }
 }
 
@@ -1007,17 +1104,20 @@ footer
 
 @media (max-width: 992px) {
   footer {
-    padding-top: 0px!important;
-    margin-top: 0px!important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
   }
+
   .contact-form {
     margin-bottom: 45px;
   }
+
   footer .right-content {
     text-align: center;
   }
+
   footer .footer-content {
-    padding: 60px 0px!important;
+    padding: 60px 0px !important;
   }
 }
 
@@ -1041,7 +1141,7 @@ footer .footer-content {
   padding: 45px;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -1077,11 +1177,13 @@ footer .right-content {
   text-align: center;
 }
 
-.contact-form ::-webkit-input-placeholder { /* Edge */
+.contact-form ::-webkit-input-placeholder {
+  /* Edge */
   color: #7a7a7a;
 }
 
-.contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+.contact-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: #7a7a7a;
 }
 
@@ -1166,17 +1268,17 @@ footer .copyright {
 }
 
 footer .sub-footer {
-  padding: 60px 0px;
-  border-top: 1px solid rgba(250,250,250,0.3);
+  padding: 30px 0px;
+  border-top: 1px solid rgba(250, 250, 250, 0.3);
   text-align: center;
 }
 
 footer .sub-footer a {
-	color: #FFF;
+  color: #FFF;
 }
 
 footer .sub-footer a:hover {
-	color: #FC3;
+  color: #FC3;
 }
 
 footer .sub-footer p {
@@ -1190,6 +1292,7 @@ footer .sub-footer p {
   footer .copyright {
     text-align: center;
   }
+
   footer .social {
     text-align: center;
   }
@@ -1224,7 +1327,7 @@ preloader
   height: 50px;
 }
 
-#preloader .jumper > div {
+#preloader .jumper>div {
   background-color: #fff;
   width: 10px;
   height: 10px;
@@ -1239,12 +1342,12 @@ preloader
   animation: jumper 1s 0s linear infinite;
 }
 
-#preloader .jumper > div:nth-child(2) {
+#preloader .jumper>div:nth-child(2) {
   -webkit-animation-delay: 0.33333s;
   animation-delay: 0.33333s;
 }
 
-#preloader .jumper > div:nth-child(3) {
+#preloader .jumper>div:nth-child(3) {
   -webkit-animation-delay: 0.66666s;
   animation-delay: 0.66666s;
 }
@@ -1255,9 +1358,11 @@ preloader
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   5% {
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -1271,9 +1376,11 @@ preloader
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   5% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
