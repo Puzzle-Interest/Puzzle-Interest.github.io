@@ -931,7 +931,7 @@ promotion
 }
 
 #promotion .right-text img {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   margin-right: 30px;
 }
