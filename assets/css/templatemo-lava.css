@@ -958,7 +958,7 @@ project_counter
   /* float: left; */
   width: 24%;
   padding: 10px;
-  height: 100px;
+  height: 80px;
   margin: 5px;
 }
 
@@ -967,7 +967,7 @@ project_counter
     /* float: left; */
     width: 40%;
     padding: 10px;
-    height: 100px;
+    height: 80px;
     margin: 10px;
   }
 }
