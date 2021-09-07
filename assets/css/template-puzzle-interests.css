@@ -627,6 +627,7 @@ header
 
 @media (max-width: 991px) {
   .logo {
+    display: block;
     text-align: center;
     float: none !important;
   }
