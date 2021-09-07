@@ -1297,6 +1297,10 @@ footer .sub-footer p {
   footer .social {
     text-align: center;
   }
+  
+  footer .sub-footer {
+    padding: 15px 0px;
+  }
 }
 
 /*
