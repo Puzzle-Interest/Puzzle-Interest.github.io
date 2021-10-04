@@ -809,11 +809,12 @@ welcome
 @media (max-width: 1140px) {
   .welcome-area {
     height: auto;
+    background-image: url();
   }
 
   .welcome-area .header-text {
     width: 92%;
-    padding-top: 793px;
+    padding-top: 10%;
   }
 
   .welcome-area .header-text .left-text {
@@ -824,11 +825,12 @@ welcome
 
 @media (max-width: 810px) {
   .welcome-area {
+    background-image: url();
     background-size: contain;
   }
 
   .welcome-area .header-text {
-    padding-top: 100%;
+    padding-top: 10%;
     margin-left: 0;
   }
 
